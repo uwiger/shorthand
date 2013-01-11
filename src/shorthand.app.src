@@ -1,0 +1,14 @@
+%% -*- erlang -*-
+%% Copyright (c) 2013 Ulf Wiger <ulf@wiger.net>
+%% License: See attached LICENSE file
+{application, shorthand,
+ [
+  {description, "Code written for tight and readable escripts"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
